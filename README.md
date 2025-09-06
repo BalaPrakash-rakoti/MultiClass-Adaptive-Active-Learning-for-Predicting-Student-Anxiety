@@ -1,46 +1,69 @@
-🌟 Multi-Class Adaptive Active Learning for Predicting Student Anxiety
+🚀 Multi-Class Adaptive Active Learning for Predicting Student Anxiety
+
+
+
+
+
+
+
+
+⚡ A Machine Learning framework to predict student anxiety levels (Low / Medium / High) using Adaptive Active Learning and Ensemble Models.
+Helps educators with real-time analytics and early intervention for student mental health.
+
+📖 Table of Contents
+
+Overview
+
+Objectives
+
+Methodology
+
+System Requirements
+
+Project Structure
+
+How to Run
+
+Results
+
+Features
+
+Future Enhancements
+
 📌 Overview
 
-This project introduces a multi-class adaptive active learning framework for predicting student anxiety levels.
-Traditional models struggle with limited labeled data and static learning, which reduces their accuracy in real-world educational settings.
+🎓 Student anxiety is a critical issue that impacts academic performance and well-being.
+This project introduces an adaptive multi-class classification system that:
 
-Our framework:
-✅ Dynamically selects informative samples for labeling
-✅ Integrates multiple ML classifiers with an ensemble model
-✅ Provides real-time anxiety predictions with higher accuracy
-✅ Differentiates between low, medium, and high anxiety levels
+Dynamically selects the most informative data points using Active Learning
+
+Uses Ensemble methods (Stacking Classifier) for high accuracy
+
+Provides real-time predictions for early intervention
 
 🎯 Objectives
 
-🔹 Improve accuracy and robustness of student anxiety prediction
-
-🔹 Leverage adaptive active learning instead of static models
-
-🔹 Enable multi-class classification for nuanced anxiety detection
-
-🔹 Provide a scalable, real-time solution for educational institutions
+✔️ Improve accuracy & robustness of anxiety prediction
+✔️ Enable multi-class classification (Low, Medium, High)
+✔️ Build a scalable & real-time solution for institutions
+✔️ Support data-driven educational decisions
 
 🧩 Methodology
-
-We tested several algorithms and compared their performance:
-
 Algorithm	Accuracy
 Logistic Regression	0.60
 Naive Bayes	0.52
 K-Nearest Neighbors (KNN)	0.78
 XGBoost	0.80
 Random Forest	0.82
-Stacking Classifier	0.86 ✅ Best
+Stacking Classifier	0.86 ✅
 
-✨ Key Highlights:
+🔑 Highlights:
 
-Adaptive Active Learning → Iteratively improves with new labeled data
+Adaptive Active Learning → Iterative labeling for better accuracy
 
-Stacking Ensemble → Combines multiple models for stronger performance
+Stacking Ensemble → Combines multiple models into one strong classifier
 
-Real-time analytics → Instant results for timely interventions
-
-Comprehensive data → Uses academic, behavioral & psychometric info
+Real-Time Analytics → Instant student anxiety insights
 
 ⚙️ System Requirements
 💻 Hardware
@@ -55,22 +78,23 @@ Storage: 128–160 GB
 
 Language: Python 3.6+
 
-Frameworks/Libraries: Flask, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, MySQL Connector
+Framework: Flask
 
-IDE: PyCharm / VS Code
-
-Database: MySQL (XAMPP)
+Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, MySQL Connector
 
 Frontend: HTML, CSS, Bootstrap, JavaScript
 
+Database: MySQL (XAMPP)
+
 📂 Project Structure
-├── /static/           # CSS, JS, images  
-├── /templates/        # HTML templates (Flask)  
-├── app.py             # Main Flask app  
-├── model/             # Trained ML models  
-├── dataset/           # Processed student dataset  
-├── requirements.txt   # Python dependencies  
-└── README.md          # Documentation  
+📦 student-anxiety-prediction
+ ┣ 📂 static/         # CSS, JS, images
+ ┣ 📂 templates/      # HTML templates
+ ┣ 📂 model/          # Trained ML models
+ ┣ 📂 dataset/        # Processed student dataset
+ ┣ 📜 app.py          # Flask entry point
+ ┣ 📜 requirements.txt# Dependencies
+ ┗ 📜 README.md       # Documentation
 
 🚀 How to Run the Project
 
@@ -93,42 +117,51 @@ Import dataset SQL file (if provided)
 
 Update DB credentials in app.py
 
-4️⃣ Run the Flask app
+4️⃣ Run Flask app
 
 python app.py
 
 
-5️⃣ Open in Browser
+5️⃣ Open in Browser 🌐
 
 http://127.0.0.1:5000/
 
 📊 Results
 
-✅ Logistic Regression: 0.60
-✅ Naive Bayes: 0.52
-✅ KNN: 0.78
-✅ XGBoost: 0.80
-✅ Random Forest: 0.82
-🏆 Stacking Classifier: 0.86 (Best)
+🏆 Stacking Classifier achieved the best accuracy: 0.86
+
+📈 Performance comparison:
+
+Logistic Regression: 0.60
+
+Naive Bayes: 0.52
+
+KNN: 0.78
+
+XGBoost: 0.80
+
+Random Forest: 0.82
+
+Stacking Classifier: 0.86 🎯
 
 ✨ Features
 
-🎯 Multi-class prediction (Low, Medium, High anxiety)
+🔮 Multi-class prediction (Low, Medium, High)
 
 ⚡ Real-time analytics for early intervention
 
 📊 Dashboard for educators & admins
 
-🔒 Secure and scalable design
+🔒 Secure & scalable design
 
 🔮 Future Enhancements
 
 ☁️ Cloud deployment for institutions
 
-🤖 Deep learning integration for higher accuracy
+🤖 Deep Learning (LSTMs/Transformers) for better accuracy
 
 📱 Mobile app for student self-assessment
 
-⌚ IoT/Wearable data integration
+⌚ IoT/Wearable integration for behavioral insights
 
-🔥 This project showcases how AI + Education can work together to support student mental health proactively!
+🔥 This project demonstrates how AI can revolutionize education by supporting mental health through real-time, data-driven insights.
