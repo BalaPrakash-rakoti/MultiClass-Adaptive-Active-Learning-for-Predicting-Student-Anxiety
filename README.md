@@ -2,6 +2,10 @@
 ⚡ A Machine Learning framework to predict student anxiety levels (Low / Medium / High) using Adaptive Active Learning and Ensemble Models.
 Helps educators with real-time analytics and early intervention for student mental health.
 
+## Click below link to watch demo:
+https://github.com/BalaPrakash-rakoti/MultiClass-Adaptive-Active-Learning-for-Predicting-Student-Anxiety/raw/main/CODE/DEMO.mp4
+
+
 ## 📌 Overview
 
 🎓 Student anxiety is a critical issue that impacts academic performance and well-being.
